@@ -33,6 +33,9 @@ $age = 20;
 //     echo 'Sorry, you are not old enough';
 // }
 
+// Dates
+// $today = date("F j, Y, g:i a");
+
 $t = date("H");
 
 // if ($t < 12){
@@ -45,6 +48,9 @@ $t = date("H");
 //     echo 'Good Evening';
 // }
 
+// Check if an array is empty
+// The isset() function will generate a warning or e-notice when the variable does not exists. The empty() function will not generate any warning or e-notice when the variable does not exists.
+
 $posts = ['First Post'];
 
 // if(!empty($posts)) {
@@ -52,6 +58,17 @@ $posts = ['First Post'];
 // } else {
 //     echo 'No Posts';
 // }
+
+/* -------- Ternary Operator -------- */
+/*
+  The ternary operator is a shorthand if statement.
+  Ternary Syntax:
+    condition ? true : false;
+*/
+
+// Null Coalescing Operator ?? (PHP 7.4)
+// Will return null if $posts is empty
+// Always returns first parameter, unless first parameter happens to be NULL
 
 // echo !empty($posts) ? $posts[0] : 'No Posts';
 // $firstPost = !empty($posts) ? $posts[0] : 'No Posts';
