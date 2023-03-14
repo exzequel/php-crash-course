@@ -42,3 +42,13 @@ LARAVEL
 - Building apps and APIs
 
 ---
+
+## Getting Started With XAMPP
+
+- xampp/htdocs/
+- localhost
+
+NOTE:
+- create your project file in the xampp/htdocs/ folder in order to access it
+
+### Opening a PHP file
