@@ -36,17 +36,22 @@ $age = 20;
 // Dates
 // $today = date("F j, Y, g:i a");
 
-$t = date("H");
+// $t = date("H");
+$t = 15;
 
-// if ($t < 12){
-//     echo 'Good Morning!';
-// }
+if ($t < 12){
+    echo 'Good Morning!';
+}
 // elseif ($t < 17){
 //     echo 'Good Afternoon';
 // }
-// else {
-//     echo 'Good Evening';
-// }
+
+else if ($t == 15) {
+  echo 'Hello!';
+}
+else {
+    echo 'Good Evening';
+}
 
 // Check if an array is empty
 // The isset() function will generate a warning or e-notice when the variable does not exists. The empty() function will not generate any warning or e-notice when the variable does not exists.
@@ -78,19 +83,19 @@ $posts = ['First Post'];
 
 $favcolor = 'red';
 
-switch($favcolor) {
-    case 'red':
-        echo 'Your favorite color is red';
-        break;
-    case 'blue':
-        echo 'Your favorite color is blue';
-        break;
-    case 'green':
-        echo 'Your favorite color is green';
-        break;
-    default:
-        echo 'Your favorite color is not red, green, or blue';
-}
+// switch($favcolor) {
+//     case 'red':
+//         echo 'Your favorite color is red';
+//         break;
+//     case 'blue':
+//         echo 'Your favorite color is blue';
+//         break;
+//     case 'green':
+//         echo 'Your favorite color is green';
+//         break;
+//     default:
+//         echo 'Your favorite color is not red, green, or blue';
+// }
 
 
 ?>
